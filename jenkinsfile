@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                touch "Test1"
+                touch 'Test1'
             }
         }
     }
