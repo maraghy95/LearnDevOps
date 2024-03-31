@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo t1
+                touch "Test1"
             }
         }
     }
